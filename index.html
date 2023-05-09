@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html><head>
+  <link rel="stylesheet" href="styles.css">
+<nav id="navbar"></head>
+  <header>CSS Documentation</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#What"
+        >What you should already know</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#comments">Comments</a>
+    </li>
+    <li><a class="nav-link" href="#Borders">CSS Borders</a></li>
+    <li><a class="nav-link" href="#Margins">CSS Margins</a></li>
+    <li><a class="nav-link" href="#Padding">CSS Padding</a></li>
+<li><a class="nav-link" href="#Height"> Height, Width</a></li>
+<li><a class="nav-link" href="#Outline">Outline</a></li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+       What is CSS?
+CSS stands for Cascading Style Sheets.
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files
+
+      </p>
+
+      <ul>
+        <li>
+         CSS stands for Cascading Style Sheets.
+        </li>
+        <li>
+     CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+        </li>
+        <li>
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="What">
+    <header>What you should already know</header>
+    <img src="https://www.w3schools.com/css/img_selector.gif"/>
+    <article>
+      <p>The selector points to the HTML element you want to style.
+
+The declaration block contains one or more declarations separated by semicolons.
+
+Each declaration includes a CSS property name and a value, separated by a colon.
+
+Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+<code>p {
+  color: red;
+  text-align: center;
+}</code>
+    </article>
+  </section>
+  <section class="main-section" id="comments">
+    <header>Comments</header>
+    <article>
+    
+
+      <p>
+       comments are used to explain the code, and may help when you edit the source code at a later date.
+
+Comments are ignored by browsers.
+
+A CSS comment is placed inside the style element, and starts with /* and ends with */:
+      </p><code>/* this is a comment*/</code>
+      
+    </article>
+  </section>
+   <section class="main-section" id="Borders">
+    <header>CSS Borders</header>
+    <article>
+    
+
+      <p>
+       The CSS border properties allow you to specify the style, width, and color of an element's border.The border-style property specifies what kind of border to display.
+
+The following values are allowed:
+
+dotted -dashed -solid - double - groove - ridge -inset - outset - none -hidden  
+      </p><code>p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}</code>
+      
+    </article>
+  </section>
+ <section class="main-section" id="Margins">
+    <header>CSS Margins</header>
+    <article>
+    
+
+      <p>
+       The CSS margin properties are used to create space around elements, outside of any defined borders.
+
+With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+</p><p>
+Margin - Individual Sides
+CSS has properties for specifying the margin for each side of an element:</p>
+<ul><li>margin-top</li>
+<li>margin-right</li>
+<li>margin-bottom</li>
+<li>margin-left</li></ul>
+
+All the margin properties can have the following values:
+<ul><li>auto - the browser calculates the margin</li>
+<li>ength - specifies a margin in px, pt, cm, etc.</li>
+<li>% - specifies a margin in % of the width of the containing element</li>
+<li>inherit - specifies that the margin should be inherited from the parent element</li></ul>
+
+      </p><code>p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}</code>
+      
+    </article>
+  </section><section class="main-section" id="Padding">
+    <header>CSS Padding</header>
+    <article>
+    
+
+      <p>
+       Padding is used to create space around an element's content, inside of any defined borders.The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).
+
+
+      </p><code>div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}</code>
+      
+    </article>
+  </section>  <section class="main-section" id="Height">
+    <header> Height, Width</header>
+    <article>
+    
+
+      <p>
+       The CSS height and width properties are used to set the height and width of an element.
+
+The CSS max-width property is used to set the maximum width of an element.
+
+
+      </p><code>div {
+  height: 200px;
+  width: 50%;
+}</code>
+      
+    </article>
+  </section></section>  <section class="main-section" id="Outline">
+    <header> Outline</header>
+    <article>
+    
+
+      <p>
+       An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out".
+
+
+      </p><code>p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}</code>
+      
+    </article>
+  </section>
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            target="_blank"
+            >MDN</a
+          >
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
+</html>
